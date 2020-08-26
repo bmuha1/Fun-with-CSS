@@ -1,0 +1,7 @@
+li {
+  background-image: url(0-sprite.png);
+  border: 2px solid gray;
+  border-radius: 5px;
+  height: 375px;
+  width: 287px;
+}
