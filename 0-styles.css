@@ -1,7 +1,36 @@
+ul {
+  display: flex;
+  justify-content: center;
+}
+
 li {
-  background-image: url(0-sprite.png);
-  border: 2px solid gray;
-  border-radius: 5px;
-  height: 375px;
-  width: 287px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #8d8d8d;
+  border-radius: 10px;
+  margin: 1.5rem;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.icon {
+  display: inline-block;
+  height: 425px;
+  width: 300px;
+  background: url(0-sprite.png) no-repeat;
+}
+
+.i-html {
+  background-position: center left;
+}
+
+.i-css {
+  background-position: center;
+}
+
+.i-js {
+  background-position: center right;
 }
