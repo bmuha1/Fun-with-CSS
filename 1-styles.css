@@ -1,0 +1,14 @@
+a {
+  color: #c7254e;
+  text-decoration: none;
+  display: inline;
+  background-image: linear-gradient(#c7254e, #c7254e);
+  background-size: 0% 2px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background 0.25s linear;
+}
+
+a:hover {
+  background-size: 100% 2px;
+}
